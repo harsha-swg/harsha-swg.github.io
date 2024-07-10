@@ -122,7 +122,8 @@ body {
 }
 
 .rainbowTextAnimated1 {
-    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    background: linear-gradient(to right, #72ff00, rgb(22, 255, 199));
+    /* background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff); */
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -130,11 +131,12 @@ body {
     background-size: 400% 100%;
 }
 .rainbowTextAnimated2 {
-    background: linear-gradient(to left, #00ff00, #0099ff, #ff3399, #6666ff, #6666ff);
+    background: linear-gradient(to left, #72ff00, rgb(22, 255, 199));
+    /* background: linear-gradient(to left, #00ff00, #0099ff, #ff3399, #6666ff, #6666ff); */
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: rainbow_animation 6s ease-in-out infinite;
+    animation: rainbow_animation 3s ease-in-out infinite;
     background-size: 400% 100%;
 }
 @keyframes rainbow_animation {
